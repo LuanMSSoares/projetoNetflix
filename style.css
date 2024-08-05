@@ -19,7 +19,6 @@ body {
 }
 
 .nav {
-    position: fixed;
     top: 0px;
     width: 100%;
     display: flex;
@@ -78,7 +77,7 @@ body {
 }
 
 .banner_button:hover {
-    color: 000;
+    color: #000;
     background-color: #e6e6e6;
     transition: all 0.2s;
 }
@@ -100,7 +99,6 @@ body {
 .row_posters {
     display: flex;
     overflow-y: hidden;
-    overflow-x: scroll;
     padding: 20px;
 }
 
@@ -119,6 +117,7 @@ body {
 .row {
     color: white;
     margin-left: 20px ;
+    padding: 10px;
 }
 
 .row_posters::-webkit-scrollbar {
